@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap');
 
+/*-- Hero-image -- */
+.hero-image {
+background: url(../images/heroimage.jpg) no-repeat center center;
+    background-size: contain;
+    padding-top: 30%;
+    padding-bottom:30%;
+}
+
 /* -- Nav Bar -- */
 .navbar-brand {
     text-transform: uppercase;
