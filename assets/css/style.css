@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap');
+
+/* -- Nav Bar -- */
+.navbar-brand {
+    text-transform: uppercase;
+    font-family: '700, Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.navbar-nav {
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+    text-transform: uppercase;
+    text-decoration: black;
+}
