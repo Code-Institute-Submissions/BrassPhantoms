@@ -3,12 +3,16 @@
 /*-- Hero-image -- */
 .hero-image {
 background: url(../images/heroimage.jpg) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     padding-top: 30%;
     padding-bottom:30%;
 }
 
 /* -- Nav Bar -- */
+.navbar {
+
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-family: '700, Libre Franklin', sans-serif;
