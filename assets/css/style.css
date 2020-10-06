@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap');
 
+
+/*-- About -- */
+
+
+/* -- general */
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+
 /*-- Hero-image -- */
 .hero-image {
 background: url(../images/heroimage.jpg) no-repeat center center;
