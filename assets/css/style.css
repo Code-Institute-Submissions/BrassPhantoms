@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap');
 
 /*-- About -- */
+.about-content-container {
+    
+}
+
 .about-content {
     text-align: left;
     font-size: large;
     align-content: center;
-    margin: auto;
-    width: 75%;
 }
 
-.about-heading {
-    margin: auto;
-    width: 90%
+.heading-margin {
+    margin-top: 70px;
+
 }
 
 /* -- Enquire */
@@ -20,11 +22,21 @@
 body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #ffffff;
     background-color: #343a40;
+    color: #fff;
+    margin-top: 70px;
 }
 .uppercase {
     text-transform: uppercase;
+}
+
+.modal-header {
+  color: black;
+}
+
+.modal-content {
+  color: black;
+  text-align: left;
 }
 
 /*-- Hero-image -- */
