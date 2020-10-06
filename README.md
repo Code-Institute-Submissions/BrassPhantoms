@@ -1,41 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">Brass Phantoms Website</h1>
 
-Welcome USER_NAME,
+[View the live project here.]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+<p>This is the main website for the band Brass Phantoms. It is designed to be responsive and accessible on a range of devices, making it easy to navigate and discover information about the bands new music, events and social platforms.</p>
 
-## Gitpod Reminders
+<h2 align="center"><img src=""></h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+  ### User Stories
 
-A blue button should appear to click: *Make Public*,
+#### First Time Visitor Goals
 
-Another blue button should appear to click: *Open Browser*.
+1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the band and the band members.
+2. As a first time visitor, I want to be able to easily navigate throughout the site to find content that I am looking for.
+3. As a first time visitor, I want to look for information about the bands music and locate the type of platforms that the band advertises their music on.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Returning Visitor Goals
 
-A blue button should appear to click: *Make Public*,
+1. As a returning visitor, I want to find information about the bands social media links so I can stay updated with their most current music and news.
+2. As a returning visitor, I want to view the bands tour and upcoming events so I can purchase a ticket to one of their shows.
+3. As a returning visitor, I want to be able to view the bands most current music videos and images.
 
-Another blue button should appear to click: *Open Browser*.
+#### Frequent User Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+1. As a frequent visitor, I want to sign-up to the bands newsletter so I can stay updated with the bands most current news.
+2. As a frequent visitor, I want to check to see if there are any newly added music/music videos.
+3. As a frequent visitor, I want to check the tour section of the site to see if any new shows have been scheduled. 
 
-## Updates Since The Instructional Video
+### Design
+#### Colour Scheme
+* The two main colours used are Code Insititue dark grey, and white.
+#### Typography
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+#### Imagery
+The imagery on the site is important. The site will include serval hero images for different sections and a main hero image which is designed to catch the user's attention and provide clarity to viewers, particularly,  the image of the band and who they are superficially. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
+### Wireframes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* Home Page Wireframe - [View]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Mobile Wireframe - [View]()
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Features 
+* Responsive on all device sizes.
+* Interactive elements.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
