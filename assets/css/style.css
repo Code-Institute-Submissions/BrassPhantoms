@@ -63,17 +63,15 @@ background: url(../images/heroimage.jpg) no-repeat center center;
     text-decoration: black;
 }
 
+nav a:hover {
+    border-bottom: 1px solid #fff;
+}
+
 /* -- Music */
 .album-content {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 4px;
-} 
-
-@media (max-width: 600px) {
-    .hide-header {
-        display: none;
-    }
 }
 
 .spotify-colour {
@@ -91,7 +89,31 @@ background: url(../images/heroimage.jpg) no-repeat center center;
 /* -- Sign-up */
 
 /* -- Social */
+footer {
+    height: 200px;
+}
+.social-networks {
+      text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+}
+
 
 /* -- Tour */
 
 /* -- Videos */
+
+/* -- Media Queries */
+@media (max-width: 600px) {
+    .hide-header {
+        display: none;
+    }
+}
