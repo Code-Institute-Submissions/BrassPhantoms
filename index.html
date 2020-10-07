@@ -3,94 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Brass Phantoms</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Brass Phantoms</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto mt-md-0" id="Menu">
           <!-- toggle bar collapse found on https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click -->
-          <li
-            class="nav-item active"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#about">About</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#music">Music</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#video">Video</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#tour">Tour</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse" >
             <a class="nav-link" href="#enquire">Enquire</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#photos">Photos</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#signup">SignUp</a>
           </li>
-          <li
-            class="nav-item"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
             <a class="nav-link" href="#social">Social</a>
           </li>
         </ul>
@@ -129,37 +79,18 @@
               a tour of the UK.
             </p>
           </div>
-          <button
-            type="button"
-            class="btn btn-danger btn-lg"
-            data-toggle="modal"
-            data-target="#bpaboutmore"
-          >
-            More..
-          </button>
+          <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#bpaboutmore"> More..</button>
         </div>
         <div class="col-lg-1"></div>
       </div>
     </section>
     <!-- Modal -->
-    <div
-      class="modal fade"
-      id="bpaboutmore"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="brassphantomscontinued"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="bpaboutmore" tabindex="-1" role="dialog" aria-labelledby="brassphantomscontinued" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Continued..</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
@@ -202,11 +133,9 @@
             <!--https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries-->
             <div class="hide-header">
               <span class="spotify-colour"> Available on Spotify</span> |
-              <span class="apple-music-colour"> Apple Music</span> |<span
-                class="bandcamp-music-colour"
-              >
-                Bandcamp </span
-              >| iTunes
+              <span class="apple-music-colour"> Apple Music</span> |
+              <span class="bandcamp-music-colour"> Bandcamp </span>
+              | iTunes
             </div>
           </h4>
         </div>
@@ -216,18 +145,13 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-4">
-          <!-- https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets-->
           <ul class="list-group uppercase">
             <div class="album-content">
               <li class="list-group-item list-group-item-dark">Hurricane</li>
               <li class="list-group-item list-group-item-light"></li>
-              <li class="list-group-item list-group-item-dark">
-                City of Wolves
-              </li>
+              <li class="list-group-item list-group-item-dark">City of Wolves</li>
               <li class="list-group-item list-group-item-light"></li>
-              <li class="list-group-item list-group-item-dark">
-                Legal Fiction
-              </li>
+              <li class="list-group-item list-group-item-dark"> Legal Fiction</li>
               <li class="list-group-item list-group-item-light"></li>
               <li class="list-group-item list-group-item-dark">Waiting Up</li>
               <li class="list-group-item list-group-item-light"></li>
@@ -235,61 +159,27 @@
               <li class="list-group-item list-group-item-light"></li>
               <li class="list-group-item list-group-item-dark">Wood Words</li>
               <li class="list-group-item list-group-item-light"></li>
-              <li class="list-group-item list-group-item-dark">
-                What We Leave Behind Us
-              </li>
+              <li class="list-group-item list-group-item-dark"> What We Leave Behind Us</li>
               <li class="list-group-item list-group-item-light"></li>
               <li class="list-group-item list-group-item-dark">Disciples</li>
               <li class="list-group-item list-group-item-light"></li>
-              <li class="list-group-item list-group-item-dark">
-                Something Automatic
-              </li>
+              <li class="list-group-item list-group-item-dark">Something Automatic</li>
               <li class="list-group-item list-group-item-light"></li>
               <li class="list-group-item list-group-item-dark">Indigo</li>
               <li class="list-group-item list-group-item-light"></li>
-              <li class="list-group-item list-group-item-dark">
-                Max's Reprise (The City We Left Behind)
-              </li>
+              <li class="list-group-item list-group-item-dark">Max's Reprise (The City We Left Behind)</li>
               <li class="list-group-item list-group-item-light"></li>
               <li class="list-group-item list-group-item-dark">Reflection</li>
               <li class="list-group-item list-group-item-light"></li>
             </div>
           </ul>
         </div>
-        <div class="col-lg-11"></div>
+        <div class="col-lg-1"></div>
         <div class="col-lg-6">
-          <iframe
-            src="https://open.spotify.com/embed/album/2KllFIhnJxXMGHehornYvv"
-            width="300"
-            height="380"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
-          <iframe
-            src="https://open.spotify.com/embed/track/6MTVuxs5fcUMRrxzjzJhKf"
-            width="300"
-            height="380"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
-          <iframe
-            src="https://open.spotify.com/embed/track/7q4PUOzqjaXurSFA8flOhH"
-            width="300"
-            height="380"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
-          <iframe
-            src="https://open.spotify.com/embed/track/46E9yS4LxDiFKMi61bI18s"
-            width="300"
-            height="380"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
+          <iframe src="https://open.spotify.com/embed/album/2KllFIhnJxXMGHehornYvv" width="300" height="380" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/6MTVuxs5fcUMRrxzjzJhKf" width="300" height="380" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/7q4PUOzqjaXurSFA8flOhH" width="300" height="380" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src="https://open.spotify.com/embed/track/46E9yS4LxDiFKMi61bI18s" width="300" height="380" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
       </div>
     </section>
@@ -300,20 +190,8 @@
     <!-- Signup -->
     <!-- Social -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
