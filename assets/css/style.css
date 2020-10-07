@@ -91,6 +91,7 @@ nav a:hover {
 /* -- Social */
 footer {
     height: 200px;
+    background-color: #ffffff;
 }
 .social-networks {
       text-align: center;
@@ -101,9 +102,25 @@ footer {
 }
 
 .social-networks i {
-    font-size: 250%;
-    margin: 1%;
+    font-size: 150%;
+    margin: 2%;
     padding: 5%;
+}
+
+.twitter-colour {
+    color: #1DA1F2;
+}
+
+.youtube-colour {
+    color: #FF0000;
+}
+
+.facebook-colour {
+    color: #3b5998;
+}
+
+.instagram-colour {
+    color: #833AB4;
 }
 
 /* -- Tour */
