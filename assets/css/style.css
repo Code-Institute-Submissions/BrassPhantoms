@@ -63,10 +63,18 @@ background: url(../images/heroimage.jpg) no-repeat center center;
     text-decoration: black;
 }
 
-/* -- Music 
-ul, remove-bullet-points {
-    list-style-type: none;
-} */
+/* -- Music */
+.album-content {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+} 
+
+@media (max-width: 600px) {
+    .hide-header {
+        display: none;
+    }
+}
 /* -- Sign-up */
 
 /* -- Social */
