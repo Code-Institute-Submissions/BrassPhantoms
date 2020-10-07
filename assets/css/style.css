@@ -75,6 +75,19 @@ background: url(../images/heroimage.jpg) no-repeat center center;
         display: none;
     }
 }
+
+.spotify-colour {
+    color: #1DB954;
+}
+
+.apple-music-colour {
+    color: #dc3545;
+}
+
+.bandcamp-music-colour {
+    color: #629aa9;
+}
+
 /* -- Sign-up */
 
 /* -- Social */
