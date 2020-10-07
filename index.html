@@ -1,96 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <title>Brass Phantoms</title>
-</head>
-<body>
-<!-- Navbar -->
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Brass Phantoms</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <a class="navbar-brand" href="#">Brass Phantoms</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto mt-2 mt-md-0" id="Menu">
-<!-- toggle bar collapse found on https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click -->
-                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#music">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#video">Video</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#tour">Tour</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#enquire">Enquire</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#photos">Photos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#signup">SignUp</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#social">Social</a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mt-md-0" id="Menu">
+          <!-- toggle bar collapse found on https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click -->
+          <li
+            class="nav-item active"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#music">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#video">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tour">Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#enquire">Enquire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#photos">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#signup">SignUp</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#social">Social</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-<!-- Hero-image -->
-<header>
-    <div class="hero-image">
-    </div>
-</header>
-<!-- About -->
-<section class="container-fluid" id="about">
-    <div class="row">
+    <!-- Hero-image -->
+    <header>
+      <div class="hero-image"></div>
+    </header>
+    <!-- About -->
+    <section class="container-fluid" id="about">
+      <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <h2 class="about-heading heading-margin card-title"><i class="fas fa-info-circle"></i> About</h2>
-                <br>
-                <div class="about-content card-body">
-                    <p>Brass Phantoms are a five-piece Post-Indie Rock band from Dublin. The band consists of Ryan Cashell (vocals & bass), Greg Whelan (guitar & backing vocals), James Geraghty (guitar), Adam McCabe (drums & backing vocals), and new addition, Colleen Heavey (keys & backing vocals). </p>
-                    <p>No strangers to the live scene, Brass Phantoms have headlined shows in established venues such as Whelan’s and The Workman’s Club. They have major festival appearances under their belts from the likes of Other Voices, and the renowned Indiependence Festival. The group were the main support for Delorentos on their sold-out Irish tour. Impressively, they played a headline slot at MONDO Festival in New York in 2018, and were listed as one of the festival’s top acts to see. Following this, the group embarked on a tour of the UK.
-                    </p>
-                </div>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#bpaboutmore">More..</button>
+          <h2 class="heading-margin">
+            <i class="fas fa-info-circle"></i> About
+          </h2>
+          <br />
+          <div class="about-content">
+            <p>
+              Brass Phantoms are a five-piece Post-Indie Rock band from Dublin.
+              The band consists of Ryan Cashell (vocals & bass), Greg Whelan
+              (guitar & backing vocals), James Geraghty (guitar), Adam McCabe
+              (drums & backing vocals), and new addition, Colleen Heavey (keys &
+              backing vocals).
+            </p>
+            <p>
+              No strangers to the live scene, Brass Phantoms have headlined
+              shows in established venues such as Whelan’s and The Workman’s
+              Club. They have major festival appearances under their belts from
+              the likes of Other Voices, and the renowned Indiependence
+              Festival. The group were the main support for Delorentos on their
+              sold-out Irish tour. Impressively, they played a headline slot at
+              MONDO Festival in New York in 2018, and were listed as one of the
+              festival’s top acts to see. Following this, the group embarked on
+              a tour of the UK.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="btn btn-danger"
+            data-toggle="modal"
+            data-target="#bpaboutmore"
+          >
+            More..
+          </button>
         </div>
         <div class="col-lg-1"></div>
-    </div> 
-</section>
-
-<!-- Modal -->
-<div class="modal fade" id="bpaboutmore" tabindex="-1" role="dialog" aria-labelledby="brassphantomscontinued" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title"> Continued..</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
       </div>
-      <div class="modal-body">
-        <p>"In 2017, Brass Phantoms released their single Waiting Up. The track garnered widespread airplay across Irish Radio on the likes of RTE 2FM, 98FM, SPIN 1038, Today FM, and Radio Nova, as well as prestigious international features on the likes of BBC Radio 6 with Steve Lamacq and Spotify-curated playlists. Eager to keep this momentum in motion, the band’s following singles Indigo and Disciples acquired esteemed press coverage from the likes of Clash Magazine, The Irish Times, Hot Press and Joe.ie, as well as the group seeing themselves listed as ‘Artist of the Week’ on The Metro in the UK."</p>
-            <p>In 2018, Brass Phantoms signed a worldwide distribution deal with Believe Digital, and received an invitation to perform at Canadian Music Week. The band’s single City Of Wolves was used to promote Irish television coverage of the UEFA Champions League in 2018.</p>
-            <p>They are now fresh out of the studio after recently creating Holding Out For Horrors, their new album and are ready to keep growing with their upcoming music.</p>
+    </section>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="bpaboutmore"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="brassphantomscontinued"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Continued..</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              "In 2017, Brass Phantoms released their single Waiting Up. The
+              track garnered widespread airplay across Irish Radio on the likes
+              of RTE 2FM, 98FM, SPIN 1038, Today FM, and Radio Nova, as well as
+              prestigious international features on the likes of BBC Radio 6
+              with Steve Lamacq and Spotify-curated playlists. Eager to keep
+              this momentum in motion, the band’s following singles Indigo and
+              Disciples acquired esteemed press coverage from the likes of Clash
+              Magazine, The Irish Times, Hot Press and Joe.ie, as well as the
+              group seeing themselves listed as ‘Artist of the Week’ on The
+              Metro in the UK."
+            </p>
+            <p>
+              In 2018, Brass Phantoms signed a worldwide distribution deal with
+              Believe Digital, and received an invitation to perform at Canadian
+              Music Week. The band’s single City Of Wolves was used to promote
+              Irish television coverage of the UEFA Champions League in 2018.
+            </p>
+            <p>
+              They are now fresh out of the studio after recently creating
+              Holding Out For Horrors, their new album and are ready to keep
+              growing with their upcoming music.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-  
+    <!-- Music -->
+    <section class="container-fluid" id="music">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <h2 class="heading-margin">Music</h2>
+          <h3>Holding Out For Horrors - Out Now!</h3>
+          <h4>
+            Available on Spotify | Apple Music | Deezer | Bandcamp | iTunes
+          </h4>
+        </div>
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
+                    <ul class="list-group uppercase">
+                        <li class="list-group-item-dark">Hurricane</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">City of Wolves</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Legal Fiction</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Waiting Up</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Inferno</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Wood Words</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">What We Leave Behind Us</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Disciples</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Something Automatic</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Indigo</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Max Reprise (The City We Left Behind</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                        <li class="list-group-item-dark">Reflection</li>
+                        <li class="list-group-item list-group-item-light"></li>
+                    </ul>
+                    <div class="col-lg-1"></div>
+                </div>
+                <div class="col-lg-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+            </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </section>
+    <!-- Video -->
+    <!-- Tour -->
+    <!-- Enquire -->
+    <!-- Photos -->
+    <!-- Signup -->
+    <!-- Social -->
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

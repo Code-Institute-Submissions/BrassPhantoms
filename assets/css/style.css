@@ -7,10 +7,17 @@
     align-content: center;
 }
 
-/*-- Use for all nav headings -- */
-.heading-margin {
-    margin-top: 70px;
+.modal-header {
+  color: black;
+  font-family: '400, Libre Franklin', sans-serif;
 }
+
+.modal-content {
+  color: black;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 /* -- Enquire */
 
@@ -27,15 +34,9 @@ body {
     text-transform: uppercase;
 }
 
-.modal-header {
-  color: black;
-  font-family: '400, Libre Franklin', sans-serif;
-}
-
-.modal-content {
-  color: black;
-  text-align: left;
-  font-family: 'Montserrat', sans-serif;
+/*-- General - Use for all nav headings -- */
+.heading-margin {
+    margin-top: 70px;
 }
 
 /*-- Hero-image -- */
@@ -63,7 +64,9 @@ background: url(../images/heroimage.jpg) no-repeat center center;
 }
 
 /* -- Music */
-
+ul, remove-bullet-points {
+    list-style-type: none;
+}
 /* -- Sign-up */
 
 /* -- Social */
