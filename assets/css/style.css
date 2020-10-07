@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap');
 
 /*-- About -- */
-.about-content-container {
-    
-}
-
 .about-content {
     text-align: left;
     font-size: large;
     align-content: center;
 }
 
+/*-- Use for all nav headings -- */
 .heading-margin {
     margin-top: 70px;
-
 }
 
 /* -- Enquire */
@@ -26,17 +22,20 @@ body {
     color: #fff;
     margin-top: 70px;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
 
 .modal-header {
   color: black;
+  font-family: '400, Libre Franklin', sans-serif;
 }
 
 .modal-content {
   color: black;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*-- Hero-image -- */
@@ -48,10 +47,6 @@ background: url(../images/heroimage.jpg) no-repeat center center;
 }
 
 /* -- Nav Bar -- */
-.navbar {
-
-}
-
 .navbar-brand {
     text-transform: uppercase;
     font-family: '700, Libre Franklin', sans-serif;
