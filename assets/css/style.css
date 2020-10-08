@@ -124,7 +124,11 @@ footer {
 }
 
 /* -- Tour */
-
+.tour-content {
+    color: black;
+    font-weight: bold;
+    background-color: #dc3545;
+}
 /* -- Videos */
 .video-container {
     position: relative;
