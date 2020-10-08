@@ -126,7 +126,22 @@ footer {
 /* -- Tour */
 
 /* -- Videos */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    display: flex;
+  justify-content: center;
+}
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
 /* -- Media Queries */
 @media (max-width: 600px) {
     .hide-header {
