@@ -87,6 +87,9 @@ nav a:hover {
     color: #629aa9;
 }
 
+.iframe-container {
+    
+}
 /* -- Sign-up */
 
 /* -- Social */
@@ -128,14 +131,13 @@ footer {
     color: black;
     font-weight: bold;
     background-color: #dc3545;
+    padding-top: 35px; 
 }
 /* -- Videos */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; 
     height: 0;
-    display: flex;
-  justify-content: center;
 }
 
 .video-container iframe {
