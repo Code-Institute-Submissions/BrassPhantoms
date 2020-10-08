@@ -45,7 +45,7 @@ body {
 background: url(../images/heroimage.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 30%;
-    padding-bottom:56%;
+    padding-bottom:45%;
 }
 
 /* -- Nav Bar -- */
@@ -133,3 +133,20 @@ footer {
         display: none;
     }
 }
+
+@media (max-width: 600px) {
+    .font-size {
+        font-size: smaller;
+    }
+}
+
+
+
+@media only screen  and (min-width : 1224px) {
+  .resize-heroimg {
+      padding-bottom: 15%;
+      padding-top: 25%;
+  }
+
+
+/* -- add media query for hero-image on wide-screens https://www.smashingmagazine.com/2013/07/simple-responsive-images-with-css-background-images/ */
