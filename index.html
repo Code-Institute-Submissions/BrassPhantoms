@@ -53,8 +53,7 @@
     <!-- About -->
     <section class="container-fluid" id="about">
       <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
+        <div class="col-lg-10 offset-lg-1">
           <h2 class="heading-margin">
             <i class="fas fa-info-circle"></i> About
           </h2>
@@ -81,7 +80,6 @@
           </div>
           <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#bpaboutmore"> More..</button>
         </div>
-        <div class="col-lg-1"></div>
       </div>
     </section>
     <!-- Modal -->
@@ -123,35 +121,48 @@
       </div>
     </div>
     <!-- Music -->
-    <section class="container-fluid" id="music">
+     <section class="container-fluid" id="music">
       <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
+        <div class="col-lg-10 offset-lg-1">
           <h2 class="heading-margin"><i class="fas fa-music"></i> Music</h2>
-          <h3>Holding Out For Horrors - Out Now!</h3>
-          <h4>
-            <!--https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries-->
             <div class="hide-header">
-              <span class="spotify-colour"> Available on Spotify</span> |
-              <span class="apple-music-colour"> Apple Music</span> |
-              <span class="bandcamp-music-colour"> Bandcamp </span>
-              | iTunes
+                <h3>Holding Out For Horrors - Out Now!</h3>
+                    <h4>
+            <!--https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries-->
+                        <span class="spotify-colour"> Available on Spotify</span> |
+                        <span class="apple-music-colour"> Apple Music</span> |
+                        <span class="bandcamp-music-colour"> Bandcamp </span>| iTunes
+                    </h4>
+                </div>
             </div>
-          </h4>
-        </div>
-        <div class="col-lg-1"></div>
       </div>
       <br />
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <iframe src="https://open.spotify.com/embed/album/2KllFIhnJxXMGHehornYvv" width="600" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed/track/6MTVuxs5fcUMRrxzjzJhKf" width="600" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+      <!-- Start Bootstrap Grid -->
+      <div class="container-fluid">
+      <!-- Row -1 -->
+        <div class="row">
+        <!-- Col 1 -->
+            <div class="col-sm">
+                <iframe src="https://open.spotify.com/embed/album/2KllFIhnJxXMGHehornYvv" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <!-- Col 2 -->
+            <div class="col-sm">
+             <iframe src="https://open.spotify.com/embed/track/6MTVuxs5fcUMRrxzjzJhKf" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+         </div>
+            <!-- Row 2 -->
+        <div class="row">
+            <!-- Col 1 -->
+            <div class="col-sm">
+                <iframe src="https://open.spotify.com/embed/track/7q4PUOzqjaXurSFA8flOhH" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+             <!-- Col 2 -->
+             <div class="col-sm">
+                <iframe src="https://open.spotify.com/embed/track/46E9yS4LxDiFKMi61bI18s" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
         </div>
-        <div class="col-lg-10 offset-lg-1">
-          <iframe src="https://open.spotify.com/embed/track/7q4PUOzqjaXurSFA8flOhH" width="600" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed/track/46E9yS4LxDiFKMi61bI18s" width="600" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-      </div>
+        
+     </div>
     </section>
     <!-- Video -->
     <!-- Tour -->
