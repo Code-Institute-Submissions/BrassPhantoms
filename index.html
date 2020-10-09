@@ -1,291 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Brass Phantoms</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-	<title>Brass Phantoms</title>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Brass Phantoms</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body>
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		<a class="navbar-brand" href="#">Brass Phantoms</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto mt-md-0" id="Menu">
-				<!-- toggle bar collapse found on https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click -->
-				<li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#music">Music</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#video">Video</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#tour">Tour</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#enquire">Enquire</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#photos">Photos</a>
-				</li>
-				<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-					<a class="nav-link" href="#social">Social</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- Hero-image -->
-	<header>
-		<div class="hero-image resize-heroimg"></div>
-	</header>
-	<!-- About -->
-	<section class="container-fluid" id="about">
-		<div class="row">
-			<div class="col-lg-10 offset-lg-1">
-				<h2 class="heading-margin">
-					<i class="fas fa-info-circle"></i> About
-				</h2>
-				<br/>
-				<div class="about-content font-size">
-					<p>
-						Brass Phantoms are a five-piece Post-Indie Rock band from Dublin.
-						The band consists of Ryan Cashell (vocals & bass), Greg Whelan
-						(guitar & backing vocals), James Geraghty (guitar), Adam McCabe
-						(drums & backing vocals), and new addition, Colleen Heavey (keys &
-						backing vocals).
-					</p>
-					<p>
-						No strangers to the live scene, Brass Phantoms have headlined
-						shows in established venues such as Whelan’s and The Workman’s
-						Club. They have major festival appearances under their belts from
-						the likes of Other Voices, and the renowned Indiependence
-						Festival. The group were the main support for Delorentos on their
-						sold-out Irish tour. Impressively, they played a headline slot at
-						MONDO Festival in New York in 2018, and were listed as one of the
-						festival’s top acts to see. Following this, the group embarked on
-						a tour of the UK.
-					</p>
-				</div>
-				<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#bpaboutmore"> More..</button>
-			</div>
-		</div>
-	</section>
-	<!-- Modal -->
-	<div class="modal fade" id="bpaboutmore" tabindex="-1" role="dialog" aria-labelledby="brassphantomscontinued"
-		aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Continued..</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                         <span aria-hidden="true">&times;</span>
-                    </button>
-				</div>
-				<div class="modal-body">
-					<p>
-						"In 2017, Brass Phantoms released their single Waiting Up. The
-						track garnered widespread airplay across Irish Radio on the likes
-						of RTE 2FM, 98FM, SPIN 1038, Today FM, and Radio Nova, as well as
-						prestigious international features on the likes of BBC Radio 6
-						with Steve Lamacq and Spotify-curated playlists. Eager to keep
-						this momentum in motion, the band’s following singles Indigo and
-						Disciples acquired esteemed press coverage from the likes of Clash
-						Magazine, The Irish Times, Hot Press and Joe.ie, as well as the
-						group seeing themselves listed as ‘Artist of the Week’ on The
-						Metro in the UK."
-					</p>
-					<p>
-						In 2018, Brass Phantoms signed a worldwide distribution deal with
-						Believe Digital, and received an invitation to perform at Canadian
-						Music Week. The band’s single City Of Wolves was used to promote
-						Irish television coverage of the UEFA Champions League in 2018.
-					</p>
-					<p>
-						They are now fresh out of the studio after recently creating
-						Holding Out For Horrors, their new album and are ready to keep
-						growing with their upcoming music.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Music -->
-	<section class="container-fluid" id="music">
-		<div class="row">
-			<div class="col-lg-10 offset-lg-1">
-				<h2 class="heading-margin"><i class="fas fa-music"></i> Music</h2>
-				<div class="hide-header">
-					<h3>Holding Out For Horrors - Out Now!</h3>
-					<h4>
-						<!--https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries-->
-						<span class="spotify-colour"> Available on Spotify</span> |
-						<span class="apple-music-colour"> Apple Music</span> |
-						<span class="bandcamp-music-colour"> Bandcamp </span>| iTunes
-					</h4>
-				</div>
-			</div>
-		</div>
-		<br />
-		<div class="container-fluid iframe-container">
-			<div class="row ">
-				<div class="col-sm">
-					<iframe src="https://open.spotify.com/embed/album/2KllFIhnJxXMGHehornYvv" width="100%" height="400"
-						allowtransparency="true" allow="encrypted-media"></iframe>
-				</div>
-				<div class="col-sm">
-					<iframe src="https://open.spotify.com/embed/track/6MTVuxs5fcUMRrxzjzJhKf" width="100%" height="400"
-						allowtransparency="true" allow="encrypted-media"></iframe>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm">
-					<iframe src="https://open.spotify.com/embed/track/7q4PUOzqjaXurSFA8flOhH" width="100%" height="400"
-						allowtransparency="true" allow="encrypted-media"></iframe>
-				</div>
-				<div class="col-sm">
-					<iframe src="https://open.spotify.com/embed/track/46E9yS4LxDiFKMi61bI18s" width="100%" height="400"
-						allowtransparency="true" allow="encrypted-media"></iframe>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Video -->
-	<section id="video">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-10 offset-sm-1">
-					<h2 class="heading-margin"><i class="fas fa-video"></i> Video</h2>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div class="container-fluid">
-			<div class="row">
-				<!--https://css-tricks.com/fluid-width-video/-->
-				<div class="col-sm-10 offset-sm-1 video-container">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/e9xr1ErOBT0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Tour -->
-	<section id="tour">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-10 offset-sm-1">
-					<h2 class="heading-margin"><i class="fas fa-plane-departure"></i> Tour</h2>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-10 offset-sm-1 card tour-content">
-					<p>Unfortunately, we are unable to preform live events due to Covid-19 restrictions. We look forward
-						to playing live events in the near future. Stay safe - the gang!</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Enquire -->
-	<section id="enquire">
-		<div class="row">
-			<div class="col-sm-10 offset-sm-1 enquire-content">
-				<h5 class="heading-margin uppercase"> Book The Brass Phantoms for your event </h5>
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#enquire-button"> Enquire </button>
-			</div>
-		</div>
-	</section>
-	<!-- Modal https://mdbootstrap.com/docs/jquery/modals/forms/-->
-	<div class="modal fade" id="enquire-button" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-		aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title uppercase"> Enquire about the band's availability</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleFormControlInput1"><i class="fas fa-file-signature"></i> Your name</label>
-							<input type="name" class="form-control" id="name" placeholder="Name">
-                        </div>
-							<div class="form-group">
-								<label for="email-address"><i class="fas fa-envelope"></i> Your email</label>
-								<input type="email" class="form-control" id="emailaddress" placeholder="Email">
-                                </div>
-								<div class="form-group">
-									<label for="your-enquiry"> <i class="fas fa-tag"></i> Subject</label>
-									<textarea class="form-control" id="yourenquiry" rows="5"></textarea>
-								</div>
-					</form>
-				</div>
-				<div class="modal-footer d-flex justify-content-center">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Photos -->
-	<section id="photos">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-10 offset-sm-1">
-					<h2 class="heading-margin"><i class="fas fa-camera"></i> Photos</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="row" id="gallery">
-		<div class="col-12 col-sm-6 col-lg-3">
-			<img class="w-100" src="assets/images/picone.jpg">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mt-md-0" id="Menu">
+          <!-- toggle bar collapse found on https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click -->
+          <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#music">Music</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#video">Video</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#tour">Tour</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#enquire">Enquire</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#photos">Photos</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+            <a class="nav-link" href="#social">Social</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Hero-image -->
+    <header>
+      <div class="hero-image resize-heroimg"></div>
+    </header>
+    <!-- About -->
+    <section class="container-fluid" id="about">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <h2 class="heading-margin">
+            <i class="fas fa-info-circle"></i> About
+          </h2>
+          <br />
+          <div class="about-content font-size">
+            <p>
+              Brass Phantoms are a five-piece Post-Indie Rock band from Dublin.
+              The band consists of Ryan Cashell (vocals & bass), Greg Whelan
+              (guitar & backing vocals), James Geraghty (guitar), Adam McCabe
+              (drums & backing vocals), and new addition, Colleen Heavey (keys &
+              backing vocals).
+            </p>
+            <p>
+              No strangers to the live scene, Brass Phantoms have headlined
+              shows in established venues such as Whelan’s and The Workman’s
+              Club. They have major festival appearances under their belts from
+              the likes of Other Voices, and the renowned Indiependence
+              Festival. The group were the main support for Delorentos on their
+              sold-out Irish tour. Impressively, they played a headline slot at
+              MONDO Festival in New York in 2018, and were listed as one of the
+              festival’s top acts to see. Following this, the group embarked on
+              a tour of the UK.
+            </p>
+          </div>
+          <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#bpaboutmore">
+            More..
+          </button>
         </div>
-			<div class="col-12 col-sm-6 col-lg-3">
-				<img class="w-100" src="assets/images/pictwo.jpg">
-            </div>
-				<div class="col-12 col-sm-6 col-lg-3">
-					<img class="w-100" src="assets/images/picfour.png">
-                </div>
-				    <div class="col-12 col-sm-6 col-lg-3">
-						<img class="w-100" src="assets/images/picfive.jpg">
-                     </div>
-	</div>
-			<!-- Social -->
-	<footer id="social">
-		<ul class="social-networks">
-			<li><a href="https://open.spotify.com/artist/5zdXPyEAUHZes9LNm5xZSx?si=uH7a4R-8RPesHp5zv-odKA"
-									target="_blank"><i class="fab fa-spotify spotify-colour"></i></a></li>
-			<li><a href="https://itunes.apple.com/ie/artist/brass-phantoms/876319740"
-									target="_blank"><i class="fab fa-apple apple-music-colour"></i></a></li>
-			<li><a href="https://twitter.com/brassphantoms?lang=en"
-									target="_blank"><i class="fab fa-twitter-square twitter-colour"></i></a></li>
-			<li><a href="https://www.youtube.com/channel/UCBzdTFrYX67NxBulj7tzNtg"
-									target="_blank"><i class="fab fa-youtube youtube-colour"></i></a></li>
-			<li><a href="https://www.instagram.com/brassphantoms/?hl=en"
-									target="_blank"><i class="fab fa-instagram instagram-colour"></i></a></li>
-			<li><a href="https://www.facebook.com/BPdublin/"
-									target="_blank"><i class="fab fa-facebook facebook-colour"></i></a></li>
-		</ul>
-	 </footer>
+      </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="bpaboutmore" tabindex="-1" role="dialog" aria-labelledby="brassphantomscontinued" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Continued..</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              "In 2017, Brass Phantoms released their single Waiting Up. The
+              track garnered widespread airplay across Irish Radio on the likes
+              of RTE 2FM, 98FM, SPIN 1038, Today FM, and Radio Nova, as well as
+              prestigious international features on the likes of BBC Radio 6
+              with Steve Lamacq and Spotify-curated playlists. Eager to keep
+              this momentum in motion, the band’s following singles Indigo and
+              Disciples acquired esteemed press coverage from the likes of Clash
+              Magazine, The Irish Times, Hot Press and Joe.ie, as well as the
+              group seeing themselves listed as ‘Artist of the Week’ on The
+              Metro in the UK."
+            </p>
+            <p>
+              In 2018, Brass Phantoms signed a worldwide distribution deal with
+              Believe Digital, and received an invitation to perform at Canadian
+              Music Week. The band’s single City Of Wolves was used to promote
+              Irish television coverage of the UEFA Champions League in 2018.
+            </p>
+            <p>
+              They are now fresh out of the studio after recently creating
+              Holding Out For Horrors, their new album and are ready to keep
+              growing with their upcoming music.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Music -->
+    <section class="container-fluid" id="music">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <h2 class="heading-margin"><i class="fas fa-music"></i> Music</h2>
+          <div class="hide-header">
+            <h3>Holding Out For Horrors - Out Now!</h3>
+            <h4>
+              <!--https://stackoverflow.com/questions/35558567/hiding-text-on-small-viewports-using-span-class-and-media-queries-->
+              <span class="spotify-colour"> Available on Spotify</span> |
+              <span class="apple-music-colour"> Apple Music</span> |
+              <span class="bandcamp-music-colour"> Bandcamp </span>| iTunes
+            </h4>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container-fluid iframe-container">
+        <div class="row">
+          <div class="col-sm">
+            <iframe src="https://open.spotify.com/embed/album/2KllFIhnJxXMGHehornYvv" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          <div class="col-sm">
+            <iframe src="https://open.spotify.com/embed/track/6MTVuxs5fcUMRrxzjzJhKf" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <iframe src="https://open.spotify.com/embed/track/7q4PUOzqjaXurSFA8flOhH" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          <div class="col-sm">
+            <iframe src="https://open.spotify.com/embed/track/46E9yS4LxDiFKMi61bI18s" width="100%" height="400" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video -->
+    <section id="video">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-10 offset-sm-1">
+            <h2 class="heading-margin"><i class="fas fa-video"></i> Video</h2>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container-fluid">
+        <div class="row">
+          <!--https://css-tricks.com/fluid-width-video/-->
+          <div class="col-sm-10 offset-sm-1 video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e9xr1ErOBT0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tour --> 
+    <section id="tour">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-10 offset-sm-1">
+            <h2 class="heading-margin">
+              <i class="fas fa-plane-departure"></i> Tour
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-10 offset-sm-1 card tour-content">
+            <p>
+              Unfortunately, we are unable to preform live events due to
+              Covid-19 restrictions. We look forward to playing live events in
+              the near future. Stay safe - the gang!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Enquire --> <!--
+    <section id="enquire">
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1 enquire-content">
+          <h5 class="heading-margin uppercase">
+            Book The Brass Phantoms for your event
+          </h5>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#enquire-button">
+            Enquire
+          </button>
+        </div>
+      </div>
+    </section> 
+    <!-- Modal https://mdbootstrap.com/docs/jquery/modals/forms/--> 
+    <div class="modal fade" id="enquire-button" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title uppercase">
+              Enquire about the band's availability
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1"><i class="fas fa-file-signature"></i> Your name</label>
+                <input type="name" class="form-control" id="name" placeholder="Name"/>
+              </div>
+              <div class="form-group">
+                <label for="email-address"><i class="fas fa-envelope"></i> Your email</label>
+                <input type="email" class="form-control" id="emailaddress" placeholder="Email"/>
+              </div>
+              <div class="form-group">
+                <label for="your-enquiry">
+                  <i class="fas fa-tag"></i> Subject</label>
+                <textarea class="form-control" id="yourenquiry" rows="5"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- Photos --> 
+    <section id="photos">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-10 offset-sm-1">
+            <h2 class="heading-margin"><i class="fas fa-camera"></i> Photos</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row" id="gallery">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <img class="w-100" src="assets/images/picone.jpg" />
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <img class="w-100" src="assets/images/pictwo.jpg" />
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <img class="w-100" src="assets/images/picfour.png" />
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <img class="w-100" src="assets/images/picfive.jpg" />
+      </div>
+    </div> 
+    <!-- Social -->
+    <footer id="social">
+      <ul class="social-networks">
+        <li>
+          <a href="https://open.spotify.com/artist/5zdXPyEAUHZes9LNm5xZSx?si=uH7a4R-8RPesHp5zv-odKA" target="_blank" ><i class="fab fa-spotify spotify-colour"></i></a>
+        </li>
+        <li>
+          <a  href="https://itunes.apple.com/ie/artist/brass-phantoms/876319740"  target="_blank"><i class="fab fa-apple apple-music-colour"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/brassphantoms?lang=en" target="_blank" ><i class="fab fa-twitter-square twitter-colour"></i></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCBzdTFrYX67NxBulj7tzNtg" target="_blank"  ><i class="fab fa-youtube youtube-colour"></i></a>
+        </li>
+        <li>
+          <a  href="https://www.instagram.com/brassphantoms/?hl=en"  target="_blank" ><i class="fab fa-instagram instagram-colour"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/BPdublin/" target="_blank"><i class="fab fa-facebook facebook-colour"></i></a>
+        </li>
+      </ul>
+    </footer>
 
-
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>

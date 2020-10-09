@@ -2,11 +2,17 @@
 
 [View the live project here.]()
 
-<p>This is the main website for the band Brass Phantoms. It is designed to be responsive and accessible on a range of devices, making it easy to navigate and discover information about the bands new music, events and social platforms.</p>
+<p>This is the main website for the band Brass Phantoms. They are an up and coming band in the Irish and UK market who will use this website to increase traction for the band and their new album. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate and discover information about the bands new music, events and social platforms.</p>
 
 <h2 align="center"><img src=""></h2>
 
 ## User Experience (UX)
+
+#### 1.1. Project Goals
+
+This website was designed for the band members, so they can build or improve their online presence on a range of social platforms. The ultimate aim of the website is to increase traffic for their newly released album and increase recognition of the bands body of work. 
+Potential viewers will be greeted by a hero image of the band, a short about section with an option to read more via a modal and then embedded content containing the bands music, mainly viewed on Spotify. Soft targets include enquiries about the band's availability largely due to the fact that performing live events is not an option right now due to Covid19 restrictions.
+Viewers of the website can easily access the bands social platforms by clicking on the icons in the footer or by opening their music via embedded content.
 
   ### User Stories
 
