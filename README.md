@@ -36,11 +36,11 @@ Viewers of the website can easily access the bands social platforms by clicking 
 
 ### Design
 #### Colour Scheme
-* The two main colours used are Code Insititue dark grey, and white.
+* The two main colours used are dark grey, and white.
 #### Typography
 
 #### Imagery
-The imagery on the site is important. The site will include serval hero images for different sections and a main hero image which is designed to catch the user's attention and provide clarity to viewers, particularly,  the image of the band and who they are superficially. 
+The imagery on the site is important. The site will include  a main hero image which is designed to catch the user's attention and provide clarity to viewers, particularly,  the image of the band and who they are superficially. 
 
 ### Wireframes
 
