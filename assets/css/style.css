@@ -133,11 +133,30 @@ footer {
 }
 
 /* -- Tour */
+.tour-container {
+    background: url(../images/bpnew.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .tour-content {
     color: black;
     font-weight: bold;
     background-color: #dc3545;
-    padding-top: 35px; 
+    padding-top: 1%; 
+    justify-content: flex-end;
+}
+
+.style-p {
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+    font-family: '700, Libre Franklin', sans-serif;
+}
+
+.border {
+    border-bottom: 1px solid #fff;
 }
 /* -- Videos */
 .video-container {
@@ -179,6 +198,17 @@ footer {
   .resize-heroimg {
       padding-bottom: 15%;
       padding-top: 25%;
+  }
+
+@media only screen  and (min-width : 1224px) {
+  .resize-tourimg {
+      padding-bottom: 15%;
+      padding-top: 25%;
+  }
+
+@media only screen  and (min-width : 1224px) {
+  .heading-tour {
+      margin-bottom: 20%;
   }
 
 
