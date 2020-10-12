@@ -206,19 +206,16 @@ footer {
 
 @media only screen  and (min-width : 1224px) {
   .resize-tourimg {
-      padding-bottom: 15%;
-      padding-top: 15%;
+      padding-bottom: 8%;
+      padding-top: 8%;
   }
 
 @media only screen  and (min-width : 1224px) {
   .heading-tour {
-      margin-bottom: 40%;
+      margin-bottom: 30%;
   }
 
 @media only screen  and (min-width : 1224px) {
   .border{
       background-color: #777777;
-     
   }
-
-/* -- add media query for hero-image on wide-screens https://www.smashingmagazine.com/2013/07/simple-responsive-images-with-css-background-images/ */
