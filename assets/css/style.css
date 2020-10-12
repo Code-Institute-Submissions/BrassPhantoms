@@ -6,6 +6,8 @@
     border: 0;
 } 
 /*-- About -- */
+
+
 .about-content {
     text-align: left;
     font-size: large;
@@ -75,6 +77,13 @@ nav a:hover {
 }
 
 /* -- Music */
+.music-container {
+    background: url(../images/livemusic.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom:1%;
+}
+
 .album-content {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -93,9 +102,10 @@ nav a:hover {
     color: #629aa9;
 }
 
-.iframe-container {
-    
-}
+
+/* -- Photos */
+
+
 /* -- Sign-up */
 
 /* -- Social */
@@ -151,18 +161,17 @@ footer {
 .style-p {
     font-weight: bold;
     font-size: larger;
-    text-transform: uppercase;
-    font-family: '700, Libre Franklin', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 2px;
 }
 
-.border {
-    border-bottom: 5px solid #777777;
-}
 
 .calender-colour {
     color: #ffffb5;
 }
 /* -- Videos */
+
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%; 
@@ -213,9 +222,4 @@ footer {
 @media only screen  and (min-width : 1224px) {
   .heading-tour {
       margin-bottom: 30%;
-  }
-
-@media only screen  and (min-width : 1224px) {
-  .border{
-      background-color: #777777;
   }
