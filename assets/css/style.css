@@ -156,7 +156,11 @@ footer {
 }
 
 .border {
-    border-bottom: 1px solid #fff;
+    border-bottom: 5px solid #777777;
+}
+
+.calender-colour {
+    color: #ffffb5;
 }
 /* -- Videos */
 .video-container {
@@ -203,13 +207,18 @@ footer {
 @media only screen  and (min-width : 1224px) {
   .resize-tourimg {
       padding-bottom: 15%;
-      padding-top: 25%;
+      padding-top: 15%;
   }
 
 @media only screen  and (min-width : 1224px) {
   .heading-tour {
-      margin-bottom: 20%;
+      margin-bottom: 40%;
   }
 
+@media only screen  and (min-width : 1224px) {
+  .border{
+      background-color: #777777;
+     
+  }
 
 /* -- add media query for hero-image on wide-screens https://www.smashingmagazine.com/2013/07/simple-responsive-images-with-css-background-images/ */
