@@ -107,10 +107,13 @@ nav a:hover {
 
 
 /* -- Sign-up */
+.newsletter {
+   line-height: 1.5;
+    
+}
 
 /* -- Social */
 footer {
-    background-color: #ffffff;
     width: 100%;
 }
 .social-networks {
