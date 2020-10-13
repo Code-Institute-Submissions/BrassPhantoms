@@ -54,7 +54,7 @@
     * The bands newsletter is located in the footer where a user can easily sign-up.
 
 2. As a frequent visitor, I want to check to see if there are any newly added music/music videos.
-    * A user can find the most up tp date music and videos in the music and video section.
+    * A user can find the most up to date music and videos in the music and video section.
 
 3. As a frequent visitor, I want to check the tour section of the site to see if any new shows have been scheduled. 
     * A user can check this by using the navbar to go to the tour section or by scrolling down.

@@ -125,4 +125,4 @@ Embedded content is from Spotify and Youtube.
 
 ###  Acknowledgments
 
-[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the mentor guidance and support.
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) I'd like to thank Precious for the outstanding mentor guidance and support.
