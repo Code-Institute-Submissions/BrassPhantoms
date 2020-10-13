@@ -65,7 +65,7 @@
 
 * [PowerMapper](https://try.powermapper.com/demo/Report/679c61f5-609e-4ae8-b8be-56050f6afbf2) * Powermapper stated that it is compatiable on all devices.
 
-!(readme-files/compatibilitycheck.png)
+![Compatibility](readme-files/compatibilitycheck.png)
 
 ## Bugs 
 * The design is responsive in most screen sizes except for a galaxy fold where the navbar covers some headings and some of the hero-image.
