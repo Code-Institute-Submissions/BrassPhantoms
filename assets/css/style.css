@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;700&family=Montserrat&display=swap");
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: 0;
-} 
+}  */
 /*-- About -- */
 
 
@@ -51,7 +51,7 @@ body {
 
 /*-- Hero-image -- */
 .hero-image {
-background: url(../images/heroimage.jpg) no-repeat center center;
+    background: url(../images/heroimage.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 30%;
     padding-bottom:45%;
@@ -192,6 +192,7 @@ footer {
   height: 90%;
   
 }
+
 /* -- Media Queries */
 @media (max-width: 600px) {
     .hide-header {
@@ -211,24 +212,24 @@ footer {
     }
 }
 
-
 @media (max-width: 768px) {
     .social-networks i {
         font-size: 100%;
     }
-
-
+}
 @media only screen  and (min-width : 1224px) {
   .resize-heroimg {
       padding-bottom: 15%;
       padding-top: 25%;
   }
+}
 
 @media only screen  and (min-width : 1224px) {
   .resize-tourimg {
       padding-bottom: 8%;
       padding-top: 8%;
   }
+}
 
 @media only screen  and (min-width : 1224px) {
   .heading-tour {
@@ -236,7 +237,7 @@ footer {
   }
 }
 
-  @media only screen  and (min-width : 1224px) {
+@media only screen  and (min-width : 1224px) {
     .style-p {
         background-color: #777777;
     }
