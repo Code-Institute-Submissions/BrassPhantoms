@@ -1,3 +1,13 @@
+# Testing
+
+## Code validators
+
+* [HTML Validator](https://validator.w3.org/) : 
+
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) : CSS validator test did not find any errors.
+
+![CSS Validator](readme-files/cssvalidator.PNG)
+
 ## Testing User stories
 
 #### First Time Visitor Goals
@@ -32,3 +42,10 @@
 
 3. As a frequent visitor, I want to check the tour section of the site to see if any new shows have been scheduled. 
     * A user can check this by using the navbar to go to the tour section or by scrolling down.
+
+## Responsiveness
+
+* To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) on a number of devices. 
+
+## Bugs 
+* The design is responsive in most screen sizes except for a galaxy fold where the navbar covers some headings and some of the hero-image.
