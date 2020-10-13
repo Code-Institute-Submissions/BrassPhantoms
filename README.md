@@ -47,9 +47,9 @@ The imagery on the site is important. The site will include  a main hero image w
 
 ### Wireframes
 
-* Home Page Wireframe - [View]()
+* Home Page Wireframe - [View](wireframes/desktop-wireframe.pdf)
 
-* Mobile Wireframe - [View]()
+* Mobile Wireframe - [View](wireframes/mobile-wireframe.pdf)
 
 ### Features 
 * The hero image in the header allows users to know the image of the band and who they are.
