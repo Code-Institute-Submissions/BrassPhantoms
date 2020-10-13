@@ -8,14 +8,17 @@
 ## When I changed width from "width='100%'" to style="width: 100%;" on all iframes and deleted the allow transparency attribute it fixed 8 errors. 
 
 ![Input/Placehlder/Require errors](readme-files/htmltestingtwo.png)
-## Also changed input type from name to text which got rid of 1 error. Also got rid of placeholder because it wasn't applicable. Required attribute was deleted from input with an id of name. Iframe errors in this image were fixed when fixing iframe errors in previous image.
+
+* Also changed input type from name to text which got rid of 1 error. Also got rid of placeholder because it wasn't applicable. Required attribute was deleted from input with an id of name. Iframe errors in this image were fixed when fixing iframe errors in previous image.
 
 ![Aria labels and ID](readme-files/htmltestingthree.png)
-##  Took note of errors and matched aria labels with respective ids and now there are no more errors in the HTML validator.
+
+* Took note of errors and matched aria labels with respective ids and now there are no more errors in the HTML validator.
 
 ![HTML Validator](readme-files/noerrorshtml.PNG)
 
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) : CSS validator test did not find any errors.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) : 
+## CSS validator test did not find any errors.
 
 ![CSS Validator](readme-files/cssvalidator.PNG)
 
@@ -57,6 +60,12 @@
 ## Responsiveness
 
 * To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) on a number of devices. 
+
+## Browser Compatibility
+
+* [PowerMapper](https://try.powermapper.com/demo/Report/679c61f5-609e-4ae8-b8be-56050f6afbf2) * Powermapper stated that it is compatiable on all devices.
+
+!(readme-files/compatibilitycheck.png)
 
 ## Bugs 
 * The design is responsive in most screen sizes except for a galaxy fold where the navbar covers some headings and some of the hero-image.

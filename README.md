@@ -116,11 +116,11 @@ To clone this project from GitHub:
 ## Credits
 
 ### Content
-Some of the text I got from the about me page is from breaking tunes and edited by me to suit the site. 
+Some of the text I got for the about me page is from breaking tunes and edited and restructured by me to suit the site. 
 
 ###  Media
 
-The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) as recommended by my mentor. Other images of the band were obtained by one of the band member Greg who sent me them via Google drive.
+The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) as recommended by my mentor because a lack of actual band photos. Other images of the band were obtained by one of the band member Greg who sent me them via Google drive.
 Embedded content is from Spotify and Youtube. 
 
 ###  Acknowledgments
