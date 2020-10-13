@@ -2,7 +2,10 @@
 
 ## Code validators
 
-* [HTML Validator](https://validator.w3.org/) : 
+* [HTML Validator](https://validator.w3.org/) : HTML validator found 18 errors mostly to do with iframes.
+![Home Page HTML Validator](readme-files/htmltesting.png)
+![Home Page HTML Validator](readme-files/htmltestingtwo.png)
+![Home Page HTML Validator](readme-files/hhtmltestingthree.png)
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) : CSS validator test did not find any errors.
 
