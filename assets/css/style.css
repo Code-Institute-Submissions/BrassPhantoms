@@ -31,6 +31,7 @@
     font-family: '700, Libre Franklin', sans-serif;
     font-weight: bold;
 }
+
 /* -- General */
 body {
     font-family: "Montserrat", sans-serif;
@@ -102,20 +103,22 @@ nav a:hover {
     color: #629aa9;
 }
 
-
-/* -- Photos */
-
-
-/* -- Sign-up */
-.newsletter {
-   line-height: 1.5;
-    
+/* -- Footer/Sign-up */
+.news-form {
+   font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding: 1em;
+    margin-bottom: 5%;
 }
 
-/* -- Social */
+.newsletter {
+    padding: 1px;
+}
+
 footer {
     width: 100%;
 }
+
 .social-networks {
       text-align: center;
 }
@@ -127,6 +130,7 @@ footer {
 .social-networks i {
     font-size: 175%;
     padding: 5%;
+    margin-top: 3%;
 }
 
 .twitter-colour {
@@ -168,13 +172,10 @@ footer {
     letter-spacing: 2px;
 }
 
-
 .calender-colour {
     color: #ffffb5;
 }
 /* -- Videos */
-
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%; 
@@ -205,6 +206,12 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .social-networks i {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 768px) {
     .social-networks i {
         font-size: 100%;
     }
