@@ -226,3 +226,9 @@ footer {
   .heading-tour {
       margin-bottom: 30%;
   }
+
+  @media only screen  and (min-width : 1224px) {
+    .style-p {
+        background-color: #777777;
+    }
+}
