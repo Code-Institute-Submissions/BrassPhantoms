@@ -1,6 +1,6 @@
 <h1 align="center">Brass Phantoms Website</h1>
 
-[Brass-Phantoms] (readme-files/amiresponsive.png)
+![Brass-Phantoms](readme-files//amiresponsive.png)
 
 [View the live project here.](https://jesson96.github.io/BrassPhantoms/#social).
 
@@ -35,6 +35,7 @@ Viewers of the website can easily access the bands social platforms by clicking 
 3. As a frequent visitor, I want to check the tour section of the site to see if any new shows have been scheduled. 
 
 ### Design
+
 #### Colour Scheme
 * The two main colours used are dark grey, and white because it reflects the bands image as an indie rock band as well as images used every second section to let users know they are in a new section.
 
@@ -86,11 +87,11 @@ The imagery on the site is important. The site will include  a main hero image w
 ### Content
 Some of the text I got from the about me page is from breaking tunes and edited by me to suit the site. 
 
-### 6.2. Media
+###  Media
 
 The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) as recommended by my mentor. Other images of the band were obtained by one of the band member Greg who sent me them via Google drive.
 Embedded content is from Spotify and Youtube. 
 
-### 6.1. Acknowledgments
+###  Acknowledgments
 
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the mentor guidance and support.
