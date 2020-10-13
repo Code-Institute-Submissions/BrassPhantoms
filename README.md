@@ -1,14 +1,14 @@
 <h1 align="center">Brass Phantoms Website</h1>
 
-[View the live project here.]()
+![Brass-Phantoms] (assets/images/responsive-devices.png)
+
+[View the live project here.](https://jesson96.github.io/BrassPhantoms/#social).
 
 <p>This is the main website for the band Brass Phantoms. They are an up and coming band in the Irish and UK market who will use this website to increase traction for the band and their new album. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate and discover information about the bands new music, events and social platforms.</p>
 
-<h2 align="center"><img src=""></h2>
-
 ## User Experience (UX)
 
-#### 1.1. Project Goals
+#### Project Goals
 
 This website was designed for the band members, so they can build or improve their online presence on a range of social platforms. The ultimate aim of the website is to increase traffic for their newly released album and increase recognition of the bands body of work. 
 Potential viewers will be greeted by a hero image of the band, a short about section with an option to read more via a modal and then embedded content containing the bands music, mainly viewed on Spotify. Soft targets include enquiries about the band's availability largely due to the fact that performing live events is not an option right now due to Covid19 restrictions.
@@ -65,7 +65,7 @@ The imagery on the site is important. The site will include  a main hero image w
 * The newsletter should submit the users informations and respond with a confirmation email that they have been added to a subscriber list.
 * A gallery should be included when further images of the band have been taken.
 
-## 3. Technologies used
+##  Technologies used
 
 - [HTML5] - provides the content and structure for my website.
 - [CSS3] - provides the styling.
@@ -79,3 +79,18 @@ The imagery on the site is important. The site will include  a main hero image w
 - [TinyJPG](https://www.tinyjpg.com/) - used to compress the size of the images.
 - [W3schools] (https://www.w3schools.com/) - used to validate certain processes.
 - [breakingtunes] (https://www.breakingtunes.com/bpdublin) - used and edited to help write the about page for the band.
+- [Stackoverflow] (https://stackoverflow.com/) - used to help navbar close on small devices when clicked.
+
+## Credits
+
+### Content
+Some of the text I got from the about me page is from breaking tunes and edited by me to suit the site. 
+
+### 6.2. Media
+
+The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) as recommended by my mentor. Other images of the band were obtained by one of the band member Greg who sent me them via Google drive.
+Embedded content is from Spotify and Youtube. 
+
+### 6.1. Acknowledgments
+
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the mentor guidance and support.
