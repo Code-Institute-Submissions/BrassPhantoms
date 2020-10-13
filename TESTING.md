@@ -3,9 +3,17 @@
 ## Code validators
 
 * [HTML Validator](https://validator.w3.org/) : HTML validator found 18 errors mostly to do with iframes.
-![Home Page HTML Validator](readme-files/htmltesting.png)
-![Home Page HTML Validator](readme-files/htmltestingtwo.png)
-![Home Page HTML Validator](readme-files/hhtmltestingthree.png)
+
+![Iframe](readme-files/htmltesting.png)
+## When I changed width from "width='100%'" to style="width: 100%;" on all iframes and deleted the allow transparency attribute it fixed 8 errors. 
+
+![Input/Placehlder/Require errors](readme-files/htmltestingtwo.png)
+## Also changed input type from name to text which got rid of 1 error. Also got rid of placeholder because it wasn't applicable. Required attribute was deleted from input with an id of name. Iframe errors in this image were fixed when fixing iframe errors in previous image.
+
+![Aria labels and ID](readme-files/htmltestingthree.png)
+##  Took note of errors and matched aria labels with respective ids and now there are no more errors in the HTML validator.
+
+![HTML Validator](readme-files/noerrorshtml.PNG)
 
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) : CSS validator test did not find any errors.
 
