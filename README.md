@@ -47,7 +47,7 @@ The imagery on the site is important. The site will include  a main hero image w
 
 ### Wireframes
 
-* Home Page Wireframe - [View](wireframes/desktop-wireframe.pdf)
+* Desktop Page Wireframe - [View](wireframes/desktop-wireframe.pdf)
 
 * Mobile Wireframe - [View](wireframes/mobile-wireframe.pdf)
 
@@ -68,8 +68,8 @@ The imagery on the site is important. The site will include  a main hero image w
 
 ##  Technologies used
 
-- [HTML5] - provides the content and structure for my website.
-- [CSS3] - provides the styling.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) - provides the styling.
 - [Bootstrap](https://www.getbootstrap.com/) - used to create the layout of the project.
 - [Balsamiq](https://www.balsamiq.com/) - used to create the project's wireframes.
 - [Gitpod](https://www.gitpod.io/) - used to develop the website.
@@ -81,6 +81,12 @@ The imagery on the site is important. The site will include  a main hero image w
 - [W3schools] (https://www.w3schools.com/) - used to validate certain processes.
 - [breakingtunes] (https://www.breakingtunes.com/bpdublin) - used and edited to help write the about page for the band.
 - [Stackoverflow] (https://stackoverflow.com/) - used to help navbar close on small devices when clicked.
+- [AmIResponsive] (http://ami.responsivedesign.is/) - used for hero-image in README.md.
+- [CSStricks] (https://css-tricks.com/fluid-width-video/) - used to help makes videos 100% of container.
+
+## Testing
+
+The testing process can be seen [here](TESTING.md).
 
 ## Credits
 
