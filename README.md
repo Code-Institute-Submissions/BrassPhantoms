@@ -1,6 +1,6 @@
 <h1 align="center">Brass Phantoms Website</h1>
 
-![Brass-Phantoms] (../images/amiresponsive.png)
+[Brass-Phantoms] (readme-files/amiresponsive.png)
 
 [View the live project here.](https://jesson96.github.io/BrassPhantoms/#social).
 
