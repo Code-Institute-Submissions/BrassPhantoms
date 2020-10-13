@@ -18,8 +18,9 @@
 
 ![HTML Validator](readme-files/noerrorshtml.PNG)
 
-* [CSS Validator](https://jigsaw.w3.org/css-validator/) : 
-## CSS validator test did not find any errors.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) 
+
+* CSS validator test did not find any errors.
 
 ![CSS Validator](readme-files/cssvalidator.PNG)
 
