@@ -61,7 +61,7 @@
 
 ## Responsiveness
 
-* To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) on a number of devices. 
+* To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) on a number of devices and I also further checked responsivenss on [Responsive Design Checker](https://www.responsivedesignchecker.com/). 
 
 ## Browser Compatibility
 
@@ -70,5 +70,5 @@
 ![Compatibility](readme-files/compatibilitycheck.png)
 
 ## Bugs 
-* The design is responsive in most screen sizes except for a galaxy fold where the navbar covers some headings and some of the hero-image.
+* The website is responsive in most screen sizes except for a galaxy fold, galaxy tab 10, nexus 7 and nexus 9 as one footer icon drops below the rest on these devices.
 * One social icon moves below the rest in the footer when I checked the responsiveness on [Responsive Design Checker](https://www.responsivedesignchecker.com/).
