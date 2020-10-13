@@ -5,7 +5,8 @@
 * [HTML Validator](https://validator.w3.org/) : HTML validator found 18 errors mostly to do with iframes.
 
 ![Iframe](readme-files/htmltesting.png)
-## When I changed width from "width='100%'" to style="width: 100%;" on all iframes and deleted the allow transparency attribute it fixed 8 errors. 
+
+* When I changed width from "width='100%'" to style="width: 100%;" on all iframes and deleted the allow transparency attribute it fixed 8 errors. 
 
 ![Input/Placehlder/Require errors](readme-files/htmltestingtwo.png)
 
@@ -69,3 +70,4 @@
 
 ## Bugs 
 * The design is responsive in most screen sizes except for a galaxy fold where the navbar covers some headings and some of the hero-image.
+* One social icon moves below the rest in the footer when I checked the responsiveness on [Responsive Design Checker](https://www.responsivedesignchecker.com/).
